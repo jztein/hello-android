@@ -1,0 +1,9 @@
+# view AndroidManifest.xml #generated:15
+-keep class com.example.helloapp.DisplayMessageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:8
+-keep class com.example.helloapp.MainActivity { <init>(...); }
+
+# onClick res/layout/main.xml #generated:14
+-keepclassmembers class * { *** sendMessage(...); }
+
